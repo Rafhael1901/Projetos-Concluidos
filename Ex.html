@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de animação em JavaScript</title>
+  <style>
+    #animate {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      position: relative;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes example {
+      0%   {background-color:red; left:0px; top:0px;}
+      25%  {background-color:yellow; left:200px; top:0px;}
+      50%  {background-color:blue; left:200px; top:200px;}
+      75%  {background-color:green; left:0px; top:200px;}
+      100% {background-color:red; left:0px; top:0px;}
+    }
+  </style>
+</head>
+<body>
+
+  <div id="animate"></div>
+
+  <script>
+    // Insira o código JavaScript aqui
+   
+  </script>
+</body>
+</html>
+
+<!-- Aqui está uma explicação linha por linha do código:
+
+<!DOCTYPE html>: Esta linha define o tipo de documento como HTML5.
+<html>: Esta linha abre a tag HTML.
+
+<head>: Esta linha abre a tag head, que contém informações sobre o documento.
+
+<style>: Esta linha abre a tag style, que contém as regras de estilo para o documento.
+
+#animate: Esta linha define um seletor CSS para o elemento com o ID “animate”.
+
+width: 50px;: Esta linha define a largura do elemento “animate” como 50 pixels.
+
+height: 50px;: Esta linha define a altura do elemento “animate” como 50 pixels.
+
+background-color: red;: Esta linha define a cor de fundo do elemento “animate” como vermelho.
+
+position: relative;: Esta linha define a posição do elemento “animate” como relativa.
+
+animation-name: example;: Esta linha define o nome da animação como “example”.
+
+animation-duration: 4s;: Esta linha define a duração da animação como 4 segundos.
+
+animation-iteration-count: infinite;: Esta linha define o número de vezes que a animação deve ser repetida como infinito.
+
+@keyframes example: Esta linha define a animação “example”.
+
+0%   {background-color:red; left:0px; top:0px;}: Esta linha define o estado inicial da animação, onde o fundo é vermelho e a posição é (0, 0).
+
+25%  {background-color:yellow; left:200px; top:0px;}: Esta linha define o estado da animação em 25%, onde o fundo é amarelo e a posição é (200, 0).
+
+50%  {background-color:blue; left:200px; top:200px;}: Esta linha define o estado da animação em 50%, onde o fundo é azul e a posição é (200, 200).
+
+75%  {background-color:green; left:0px; top:200px;}: Esta linha define o estado da animação em 75%, onde o fundo é verde e a posição é (0, 200).
+
+100% {background-color:red; left:0px; top:0px;}: Esta linha define o estado final da animação, onde o fundo é vermelho e a posição é (0, 0).
+
+</style>: Esta linha fecha a tag style.
+</head>: Esta linha fecha a tag head.
+
+<body>: Esta linha abre a tag body, que contém o conteúdo do documento.
+
+<div id="animate"></div>: Esta linha define um elemento div com o ID “animate”.
+
+</body>: Esta linha fecha a tag body.
+</html>: Esta linha fecha a tag HTML. -->
